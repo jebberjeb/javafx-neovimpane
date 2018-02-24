@@ -12,8 +12,7 @@ or included in FXML.
 interacting with the neovim process using Neovim's [RPC
 API](https://neovim.io/doc/user/api.html#api).
 
-[![NEOVIM PANE](http://img.youtube.com/vi/cNucOrrblB0/0.jpg)]
-(http://www.youtube.com/watch?v=cNucOrrblB0)
+[![IMAGE NEOVIM PANE](http://img.youtube.com/vi/cNucOrrblB0/0.jpg)](http://www.youtube.com/watch?v=cNucOrrblB0)
 
 ## Prerequisites
 
