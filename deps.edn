@@ -1,0 +1,2 @@
+{:deps {neovim-client {:mvn/version "0.1.2"}}
+ :aliases {:test {:extra-paths ["classes" "test"]}}}
