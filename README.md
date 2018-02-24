@@ -7,9 +7,9 @@ including:
 lines of plain text.
 
 All components work seamlessly with JavaFX, and can be manipulated with code,
-or included in FXML.
-[neovim-client](https://github.com/clojure-vim/neovim-client) is used for
-interacting with the neovim process using Neovim's [RPC
+or included in FXML. Each component is attached to an embedded Neovim process.
+[neovim-client](https://github.com/clojure-vim/neovim-client) is used to
+interact with the neovim process using Neovim's [RPC
 API](https://neovim.io/doc/user/api.html#api).
 
 [![IMAGE NEOVIM PANE](http://img.youtube.com/vi/cNucOrrblB0/0.jpg)](http://www.youtube.com/watch?v=cNucOrrblB0)
