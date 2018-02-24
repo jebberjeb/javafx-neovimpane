@@ -48,6 +48,27 @@ TODO
 
 ## Usage
 
+### Clojure
+
+```clojure
+(ns neovim-javafx.test-ui
+  "This namespace contains a simple UI to test NeovimPane."
+  (:import
+    (javafx.application Platform)
+    (javafx.scene Scene)
+    (javafx.stage Stage))
+  (:require [neovim-javafx.util :refer [later]]))
+
+(javafx.embed.swing.JFXPanel.)
+(javafx.application.Platform/setImplicitExit false)
+(later
+  (doto (Stage.)
+    (.setScene (Scene. (neovim_javafx.NeovimPane.)))
+    (.show)))
+```
+
+### JavaFX FXML
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -63,6 +84,8 @@ TODO
 </VBox>
 
 ```
+
+### Java
 
 ```java
 package neovim_javafx;
