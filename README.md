@@ -1,4 +1,4 @@
-# Neovim JavaFX
+# JavaFX NeovimPane
 
 A JavaFX component which allows a user to enter multiple lines of plain text,
 using Vim commands, backed by an embedded [Neovim](https://neovim.io) process.
