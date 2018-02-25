@@ -1,18 +1,15 @@
 # Neovim JavaFX
 
-A collection of JavaFX components backed by [Neovim](https://neovim.io),
-including:
+A JavaFX component which allows a user to enter multiple lines of plain text,
+using Vim commands, backed by an embedded [Neovim](https://neovim.io) process.
+`NeovimPane` works seamlessly with JavaFX, and can be manipulated in code or
+with FXML.
 
-* NeovimPane - A text input component that allows a user to enter multiple
-lines of plain text.
+[![IMAGE NEOVIM PANE](http://img.youtube.com/vi/cNucOrrblB0/0.jpg)](http://www.youtube.com/watch?v=cNucOrrblB0)
 
-All components work seamlessly with JavaFX, and can be manipulated with code,
-or included in FXML. Each component is attached to an embedded Neovim process.
 [neovim-client](https://github.com/clojure-vim/neovim-client) is used to
 interact with the neovim process using Neovim's [RPC
 API](https://neovim.io/doc/user/api.html#api).
-
-[![IMAGE NEOVIM PANE](http://img.youtube.com/vi/cNucOrrblB0/0.jpg)](http://www.youtube.com/watch?v=cNucOrrblB0)
 
 ## Prerequisites
 
