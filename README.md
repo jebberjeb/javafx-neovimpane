@@ -62,7 +62,7 @@ TODO
 (javafx.embed.swing.JFXPanel.)
 (javafx.application.Platform/setImplicitExit false)
 (later
-  (doto (Stage.)
+  #(doto (Stage.)
     (.setScene (Scene. (neovim_javafx.NeovimPane.)))
     (.show)))
 ```
