@@ -87,6 +87,7 @@
     (attach-neovim webview (:conn @(.state this)))
     this))
 
+;; This really shouldn't be exposed as it's really an implementation detail.
 (defn -getEngine
   [this]
   (.getEngine (first (.getChildren this))))

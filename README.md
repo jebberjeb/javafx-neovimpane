@@ -19,8 +19,9 @@ API](https://neovim.io/doc/user/api.html#api).
 You'll need the Neovim binary `nvim` on your path to use any of the
 components included.
 
-This project uses [Clojure CLI and deps.edn](). Some of the sample code below
-assumes you've got the `clj` binary on your path.
+This project uses [Clojure CLI and
+deps.edn](https://clojure.org/guides/deps_and_cli).  Some of the sample code
+below assumes you've got the `clj` binary on your path.
 
 ## Release and Dependency Information
 
