@@ -7,6 +7,7 @@ with FXML.
 
 [![IMAGE NEOVIM PANE](http://img.youtube.com/vi/cNucOrrblB0/0.jpg)](http://www.youtube.com/watch?v=cNucOrrblB0)
 
+This component was created using [Clojure](http://www.clojure.org).
 [neovim-client](https://github.com/clojure-vim/neovim-client) is used to
 interact with the neovim process using Neovim's [RPC
 API](https://neovim.io/doc/user/api.html#api).
