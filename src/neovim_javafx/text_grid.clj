@@ -54,9 +54,9 @@
   (try
     (let [section (subvec (nth grid row) left (inc right))]
       (-> grid
+          ;; Remove the existing section of the row.
           (put row left (repeat (count section) " ") {})
-          ;; TODO here's where things get tricky. `secion` will actually be
-          ;; a vector of maps. So, we need a way to transfer the section.
+          ;; Move it the distance (overwrites existing content).
           (put (- row distance) left section)))
     (catch IndexOutOfBoundsException e
       (println
@@ -70,5 +70,9 @@
             (scroll-row grid' row left right distance))
           grid
           (if (pos? distance)
+            ;; Append distance here because we don't want to scroll beyond the
+            ;; top of the scroll region, per API. Clip content that moves above
+            ;; top.
             (range (+ top distance) (inc bottom))
+            ;; Similarly, clip content that moves below bottom.
             (range (+ bottom distance) (dec top) -1))))
